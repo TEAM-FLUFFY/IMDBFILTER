@@ -22,7 +22,7 @@ async def start_message(bot, message):
           InlineKeyboardButton ("🌹BOT EDITING🌹", url="t.me/TEAM_NARUTO_GRUOP"),
           InlineKeyboardButton ("🌹REPO MAKE PART 1🌹", url="https://youtu.be/Af055Eozk9s"),
           ],[
-          InlineKeyboardButton ("🌹ADD ME TO A CHAT GRUOP🌹", url="http://t.me/{temp.U_NAME}?startgroup=true"),
+          InlineKeyboardButton ("🌹ADD ME TO A CHAT GRUOP🌹", url="http://t.me/PyrogramTextBot?startgroup=true"),
           ]]
           )
        )

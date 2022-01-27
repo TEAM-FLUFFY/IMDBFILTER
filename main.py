@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 Naruto=Client(
     "Imdb Bot",
-    bot_token="5156565463:AAHUNBZIQygwcNVeBr0NZPlyP_rWnMCGQt4",
+    bot_token="5250937026:AAFA2aduIz2mORKBJrrC8ki7pMtdQREM4Wg",
     api_id="15316155",
     api_hash="c2340e29da60393bc3c96fa7c0870911"
 )

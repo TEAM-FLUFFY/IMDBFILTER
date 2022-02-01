@@ -1,3 +1,3 @@
 ### Deploy to Heroku
 
-![Deploy](https://heroku.com/deploy?template=https://github.com/SAZUKI-SAMSUNG/PyrogramAutoFilterBot)
+![Deploy](https://heroku.com/deploy?template=https://github.com/SAZUKI-SAMSUNG/IMDBFILTER)

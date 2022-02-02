@@ -4,7 +4,7 @@ import random
 
 Naruto=Client(
     "Imdb Bot",
-    bot_token="5250937026:AAFA2aduIz2mORKBJrrC8ki7pMtdQREM4Wg",
+    bot_token="5203542667:AAHMeoeCAq3iVLrChuxXspJPHzg5H2CH8NM",
     api_id="15316155",
     api_hash="c2340e29da60393bc3c96fa7c0870911"
 )

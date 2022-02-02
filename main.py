@@ -30,9 +30,10 @@ async def start_message(bot, message):
        caption="𝙷𝙴𝚈 <a href=https://t.me/{}></a> 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/PyrogramTextBot'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙱𝙾𝚃</a> 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙾𝚁 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂  <a href=https://t.me/TEAM_KERALA>𝚃𝙶 𝙵𝙻𝚄𝙵𝙵𝚈</a>",
        reply_markup=InlineKeyboardMarkup( [[
           ],[
-          InlineKeyboardButton ("𝗢𝗪𝗡𝗘𝗥", url="t.me/TEAM_KERALA"),
-          InlineKeyboardButton ("𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", url="t.me/TEAM_KERALA"),
-          InlinekeyboardButton ("𝐏𝐀𝐈𝐃 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍", url="t.me/TEAM_KERALA")
+          InlineKeyboardButton ("𝙾𝚆𝙽𝙴𝚁", url="t.me/TEAM_KERALA"),
+          InlineKeyboardButton ("𝙳𝙴𝚅𝙴𝙻𝙸𝙿𝙴𝚁", url="t.me/TEAM_KERALA"),
+          ],[
+          InlineKeyboardButton ("𝙿𝙰𝙸𝙳 𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽", url="t.me/TEAM_KERALA"),
           ]]
 
         )

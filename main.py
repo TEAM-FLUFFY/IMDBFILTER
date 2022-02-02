@@ -17,15 +17,16 @@ start message
 Description
 """
 
-
-
-
+START_BUTTON = [[
+  InlineKeyboardButton("Button", url="t.me/TEAM_KERALA")
+  ]]
 
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
   
      await message.reply_text(
-         text=START_MESSAGE
+         text=START_MESSAGE,
+         reply_markup=InlineKeyboardMarkup(START_BUTTON)
      )
        
   

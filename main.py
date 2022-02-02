@@ -4,7 +4,7 @@ import random
 
 Naruto=Client(
     "Imdb Bot",
-    bot_token="5253636075:AAFy47kQ3F0J02z3GXUti5xPRiiW4UDhjDw",
+    bot_token="5250937026:AAEveOUt5fOisEK7JD1ByjfOuNcLeX0bBus",
     api_id="15316155",
     api_hash="c2340e29da60393bc3c96fa7c0870911"
 )
@@ -27,7 +27,7 @@ ALL_PIC = [
 async def start_message(bot, message):
    await message.reply_photo(
        photo=random.choice(ALL_PIC),
-       caption="𝙷𝙴𝚈 <a href=https://t.me/{}></a> 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/PyrogramTextBot'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙱𝙾𝚃</a> 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙾𝚁 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂  <a href=https://t.me/TEAM_KERALA>𝚃𝙶 𝙵𝙻𝚄𝙵𝙵𝚈</a>",
+       caption="𝙷𝙴𝚈 <a href=https://t.me/{}></a> 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/FluffyPyroGramBot'>𝙵𝙻𝚄𝙵𝙵𝚈 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a> 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙾𝚁 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂  <a href=https://t.me/TEAM_KERALA>𝚃𝙶 𝙵𝙻𝚄𝙵𝙵𝚈</a>",
        reply_markup=InlineKeyboardMarkup( [[
           ],[
           InlineKeyboardButton ("𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃", url="t.me/TgFluffyV1Bot"),

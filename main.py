@@ -1,5 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+import random
 
 Naruto=Client(
     "Imdb Bot",
@@ -8,10 +9,24 @@ Naruto=Client(
     api_hash="c2340e29da60393bc3c96fa7c0870911"
 )
 
+
+
+
+ALL_PIC = [
+ "https://telegra.ph/file/13527c7b40976c1368cca.jpg",
+ "https://telegra.ph/file/73ad5f7b9ac871d08d058.jpg",
+ "https://telegra.ph/file/56e2c12ed686eeb4513da.jpg",
+ "https://telegra.ph/file/7cde9e71ebffa93a0d209.jpg",
+ "https://telegra.ph/file/587d7e99f98fb0bc7d02b.mp4"
+]
+
+
+
+
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
    await message.reply_photo(
-       photo="https://telegra.ph/file/91f5c6917303c5955c85b.jpg",
+       photo=random.choice(ALL_PIC),
        caption="DEVELOPER https://t.me/DEVELOPERSCHANNEL2022",
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣", url="t.me/midnightmoviesofficial"),
@@ -22,7 +37,7 @@ async def start_message(bot, message):
           ],[
           InlineKeyboardButton ("𝗕𝗢𝗧 𝗘𝗗𝗜𝗧𝗜𝗡𝗚", url="t.me/TEAM_KERALA"),
           ],[
-          InlineKeyboardButton ("𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗔 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣", url="http://t.me/{}?startgroup=true"),
+          InlineKeyboardButton ("𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗔 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣", url="http://t.me/PyrogramTextBot?startgroup=true"),
           ]]
 
         )

@@ -18,7 +18,7 @@ async def start_message(bot, message):
 Hi bro
 description"""  
      button=[[
-       InlineKeyboardButton("𝕆𝕎ℕ𝔼ℝ", url="t.me/TEAM_KERALA")
+       InlineKeyboardButton("𝕆𝕎ℕ𝔼ℝ", url="t.me/TEAM_KERALA"),
        InlineKeyboardButton("𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ", url="t.me/TEAM_KERALA")
      ]]
      await message.reply_text(

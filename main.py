@@ -31,7 +31,7 @@ async def start_message(bot, message):
        reply_markup=InlineKeyboardMarkup( [[
           ],[
           InlineKeyboardButton ("𝙾𝚆𝙽𝙴𝚁", url="t.me/TEAM_KERALA"),
-          InlineKeyboardButton ("𝙳𝙴𝚅𝙴𝙻𝙸𝙿𝙴𝚁", url="t.me/TEAM_KERALA"),
+          InlineKeyboardButton ("𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁", url="t.me/TEAM_KERALA"),
           ],[
           InlineKeyboardButton ("𝙿𝙰𝙸𝙳 𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽", url="t.me/TEAM_KERALA"),
           ]]

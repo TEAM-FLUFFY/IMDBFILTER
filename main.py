@@ -27,13 +27,13 @@ ALL_PIC = [
 async def start_message(bot, message):
    await message.reply_photo(
        photo=random.choice(ALL_PIC),
-       caption="𝙷𝙴𝚈 <a href=https://t.me/{}></a> 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/FluffyPyroGramBot'>𝙵𝙻𝚄𝙵𝙵𝚈 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a> 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙾𝚁 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂  <a href=https://t.me/TEAM_KERALA>𝚃𝙶 𝙵𝙻𝚄𝙵𝙵𝚈</a>",
+       caption="𝙷𝙴𝚈 <a href=https://t.me/{}></a> 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/PyrogramTextBot'>𝙵𝙻𝚄𝙵𝙵𝚈 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a> 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 𝙾𝚁 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂  <a href=https://t.me/TEAM_KERALA>𝚃𝙶 𝙵𝙻𝚄𝙵𝙵𝚈</a>",
        reply_markup=InlineKeyboardMarkup( [[
           ],[
-          InlineKeyboardButton ("𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃", url="t.me/TgFluffyV1Bot"),
-          InlineKeyboardButton ("𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃", url="t.me/SAZUKI_FILTER_BOT"),
+          InlineKeyboardButton ("𝕋𝔼𝕃𝔼𝔾ℝ𝔸𝕄 𝔹𝕆𝕋", url="t.me/TgFluffyV1Bot"),
+          InlineKeyboardButton ("𝕋𝔼𝕃𝔼𝔾ℝ𝔸𝕄 𝔹𝕆𝕋", url="t.me/SAZUKI_FILTER_BOT"),
           ],[
-          InlineKeyboardButton ("𝙿𝙰𝙸𝙳 𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽", url="t.me/TEAM_KERALA"),
+          InlineKeyboardButton ("ℙ𝔸𝕀𝔻 ℙℝ𝕆𝕄𝕆𝕋𝕀𝕆ℕ", url="t.me/TEAM_KERALA"),
           ]]
 
         )

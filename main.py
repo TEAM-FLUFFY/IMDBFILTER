@@ -32,7 +32,7 @@ async def start_message(bot, message):
           ],[
           InlineKeyboardButton ("𝗢𝗪𝗡𝗘𝗥", url="t.me/TEAM_KERALA"),
           InlineKeyboardButton ("𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", url="t.me/TEAM_KERALA"),
-          Inlinekeyboardbutton ("𝐏𝐀𝐈𝐃 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍", url="t.me/TEAM_KERALA")
+          InlinekeyboardButton ("𝐏𝐀𝐈𝐃 𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍", url="t.me/TEAM_KERALA")
           ]]
 
         )

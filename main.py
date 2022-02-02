@@ -10,9 +10,9 @@ Naruto=Client(
 
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
-   await message.reply_text(
-       text="DEVELOPER https://t.me/DEVELOPERSCHANNEL2022",
-       disable_web_page_preview=True,
+   await message.reply_photo(
+       photo="https://telegra.ph/file/91f5c6917303c5955c85b.jpg",
+       caption="DEVELOPER https://t.me/DEVELOPERSCHANNEL2022",
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣", url="t.me/midnightmoviesofficial"),
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="t.me/FILE_ADD_CHANNEL"),

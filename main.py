@@ -27,7 +27,7 @@ ALL_PIC = [
 async def start_message(bot, message):
    await message.reply_photo(
        photo=random.choice(ALL_PIC),
-       caption="𝙷𝙴𝚈 https://t.me/{}, 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/PyrogramTextBot'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙱𝙾𝚃</a>",
+       caption="𝙷𝙴𝚈 <a href='https://t.me/{}'>{}</a>, 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝙰 <a href='https://t.me/PyrogramTextBot'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙱𝙾𝚃</a>",
        reply_markup=InlineKeyboardMarkup( [[
           ],[
           InlineKeyboardButton ("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/TEAM_KERALA"),

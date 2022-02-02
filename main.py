@@ -11,7 +11,7 @@ Naruto=Client(
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
    await message.reply_text(
-       text="**ഈ ചാനലിലും ഗ്രുഒപ്പിലും നിങ്ങൾ ഇല്ല ഇത്രെയും വേഗം ജോയിൻ ആവേണ്ടതാണ്🔥🔥**",
+       text="DEVELOPER https://t.me/TEAM_KERALA",
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣", url="t.me/midnightmoviesofficial"),
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="t.me/FILE_ADD_CHANNEL"),

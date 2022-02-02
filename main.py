@@ -10,25 +10,19 @@ Naruto=Client(
 )
 
 
-START_MESSAGE = """
-start message
 
-
-Description
-"""
-
-START_BUTTON = [[
-  InlineKeyboardButton("Button", url="t.me/TEAM_KERALA")
-  ]]
 
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
-  
+    text ="""
+Hi bro
+description"""  
+     button=[[
+       InlineKeyboardButton("button", url="t.me/TEAM_KERALA")
+     ]]
      await message.reply_text(
-         text=START_MESSAGE,
-         reply_markup=InlineKeyboardMarkup(START_BUTTON)
+         text=text,
+         reply_markup=InlineKeyboardMarkup(button)
      )
        
-  
-
 Naruto.run()

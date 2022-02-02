@@ -27,7 +27,7 @@ ALL_PIC = [
 async def start_message(bot, message):
    await message.reply_photo(
        photo=random.choice(ALL_PIC),
-       caption="DEVELOPER https://t.me/DEVELOPERSCHANNEL2022",
+       caption="Hey My Name is <a href='https://t.me/PyrogramTextBot'>PyrogramBot</a>",
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣", url="t.me/midnightmoviesofficial"),
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="t.me/FILE_ADD_CHANNEL"),
@@ -37,7 +37,7 @@ async def start_message(bot, message):
           ],[
           InlineKeyboardButton ("𝗕𝗢𝗧 𝗘𝗗𝗜𝗧𝗜𝗡𝗚", url="t.me/TEAM_KERALA"),
           ],[
-          InlineKeyboardButton ("𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗔 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣", url="http://t.me/PyrogramTextBot?startgroup=true"),
+          InlineKeyboardButton ("𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗔 𝗖𝗛𝗔𝗧 𝗚𝗥𝗢𝗨𝗣", url="http://t.me/PyrogramTextBot?startgroup=true")
           ]]
 
         )

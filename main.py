@@ -17,7 +17,7 @@ ALL_PIC = [
  "https://telegra.ph/file/73ad5f7b9ac871d08d058.jpg",
  "https://telegra.ph/file/56e2c12ed686eeb4513da.jpg",
  "https://telegra.ph/file/7cde9e71ebffa93a0d209.jpg",
- "https://telegra.ph/file/587d7e99f98fb0bc7d02b.mp4"
+ "https://telegra.ph/file/cdd859489cae56263bd74.jpg"
 ]
 
 

@@ -12,6 +12,7 @@ Naruto=Client(
 async def start_message(bot, message):
    await message.reply_text(
        text="DEVELOPER https://t.me/DEVELOPERSCHANNEL2022",
+       disable_web_page_preview=True,
        reply_markup=InlineKeyboardMarkup( [[
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗚𝗥𝗢𝗨𝗣", url="t.me/midnightmoviesofficial"),
           InlineKeyboardButton ("𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="t.me/FILE_ADD_CHANNEL"),

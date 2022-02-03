@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 
-Rejaputh=Client(
+Naruto=Client(
       "pushpaBOT",
       bot_token="5250937026:AAEveOUt5fOisEK7JD1ByjfOuNcLeX0bBus",
       api_id="15316155",
@@ -17,7 +17,7 @@ ALL_PIC = [
  "https://telegra.ph/file/ca52686ef7b66b3fca247.jpg"
 ]
 
-@Rejaputh.on_message(filters.command("start"))
+@Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(ALL_PIC),

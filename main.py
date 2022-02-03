@@ -4,35 +4,35 @@ import random
 
 Naruto=Client(
       "ImdbBOT",
-      bot_token="5250937026:AAEveOUt5fOisEK7JD1ByjfOuNcLeX0bBus",
+      bot_token="5283913051:AAGoGo8CclNnWr3_82xZPU_rXbgkyNJhFvw",
       api_id="15316155",
       api_hash="c2340e29da60393bc3c96fa7c0870911",
 )
 
 
 ALL_PIC = [
- "https://telegra.ph/file/e3ec540aa3cc17c76850e.jpg",
- "https://telegra.ph/file/f24a2760d0392c88cc9e2.jpg",
- "https://telegra.ph/file/8bde50bae8dfd421022e5.jpg",
- "https://telegra.ph/file/ca52686ef7b66b3fca247.jpg"
+ "https://telegra.ph/file/5f51546ad227831b96a38.jpg",
+ "https://telegra.ph/file/56e2c12ed686eeb4513da.jpg",
+ "https://telegra.ph/file/266fec5cf211151997303.jpg",
+ "https://telegra.ph/file/13527c7b40976c1368cca.jpg"
 ]
 
 @Naruto.on_message(filters.command("start"))
 async def start_message(bot, message):
     await message.reply_photo(
         photo=random.choice(ALL_PIC),
-        caption="എന്റെ പേര് <a href=https://t.me/Pp_bp_RejuBot>𝕻𝖚𝖘𝖍𝖕𝖆</a>, 🔰മച്ചാനെ എന്റെ പണി കഴിഞ്ഞിട്ടില്ല അതുകൊണ്ട് RePo✅️ പ്രൈവറ്റ് ആണ് Work കഴിഞ്ഞിട്ട് public ആക്കും ",
+        caption="എന്റെ പേര് <a href=https://t.me/FluffyPyroGramBot>𝙵𝙻𝚄𝙵𝙵𝚈 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>, 🔰മച്ചാനെ എന്റെ പണി കഴിഞ്ഞിട്ടില്ല അതുകൊണ്ട് RePo✅️ പ്രൈവറ്റ് ആണ് Work കഴിഞ്ഞിട്ട് public ആക്കും ",
         reply_markup=InlineKeyboardMarkup( [[
-          InlineKeyboardButton ("🗨️𝐆𝐑𝐎𝐔𝐏🗨️", url="t.me/crimebhavanireju"),
-          InlineKeyboardButton ("📂𝐂𝐇𝐀𝐍𝐍𝐄𝐋📂", url="t.me/updatechannel_forcrime"),
+          InlineKeyboardButton ("🗨️𝔾ℝ𝕆𝕌ℙ🗨️", url="https://t.me/DEVELOPERSCHANNEL2022"),
+          InlineKeyboardButton ("📂ℂℍ𝔸ℕℕ𝔼𝕃📂", url="https://t.me/DELCHANNEL001"),
           ],[
-          InlineKeyboardButton ("🔰𝐑𝐄𝐏𝐎 𝐄𝐃𝐈𝐓𝐙🔰", url="t.me/pushpa_Reju"),
-          InlineKeyboardButton ("©️𝗕𝗢𝗧 𝗘𝗗𝗜𝗧𝗭", url="t.me/pushpa_Reju"),
+          InlineKeyboardButton ("🔰𝔼𝔻𝕀𝕋𝔼ℝ🔰", url="t.me/TEAM_KERALA"),
+          InlineKeyboardButton ("©️ℙ𝔸𝕀𝔻 ℙℝ𝕆𝕄𝕆𝕋𝕀𝕆ℕ", url="t.me/pushpa_Reju"),
           ],[
-          InlineKeyboardButton ("👨‍💻𝗗𝗘𝗩👨‍💻", url="t.me/pushpa_Reju"),
-          InlineKeyboardButton ("🟡𝕭𝖗𝖔𝖙𝖍𝖊𝖗𝕭𝖔𝖙🟡", url="t.me/IT_BUT_BOT"),
+          InlineKeyboardButton ("👨‍💻𝔻𝔼𝕍𝔼𝕃𝕀ℙ𝔼ℝ👨‍💻", url="t.me/TEAM_KERALA"),
+          InlineKeyboardButton ("🟡𝔹ℝ𝕆𝕋ℍ𝔼ℝ 𝔹𝕆𝕋", url="t.me/SAZUKI_FILTER_BOT"),
           ],[
-          InlineKeyboardButton ("𝐑𝐄𝐏𝐎♂️", url="https://github.com/TG-chembanreju/pushpaBOT"),
+          InlineKeyboardButton ("⚜️𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ⚜️", url="http://t.me/FluffyPyroGramBot?startgroup=true"),
           ]]
           )
           

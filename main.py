@@ -29,8 +29,8 @@ async def start_message(bot, message):
           InlineKeyboardButton ("🔰𝔼𝔻𝕀𝕋𝔼ℝ🔰", url="t.me/TEAM_KERALA"),
           InlineKeyboardButton ("©️ℙ𝔸𝕀𝔻 ℙℝ𝕆𝕄𝕆𝕋𝕀𝕆ℕ", url="t.me/pushpa_Reju"),
           ],[
-          InlineKeyboardButton ("👨‍💻𝔻𝔼𝕍𝔼𝕃𝕀ℙ𝔼ℝ👨‍💻", url="t.me/TEAM_KERALA"),
-          InlineKeyboardButton ("🟡𝔹ℝ𝕆𝕋ℍ𝔼ℝ 𝔹𝕆𝕋", url="t.me/SAZUKI_FILTER_BOT"),
+          InlineKeyboardButton ("👨‍💻𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ👨‍💻", url="t.me/TEAM_KERALA"),
+          InlineKeyboardButton ("🟡𝔹ℝ𝕆𝕋ℍ𝔼ℝ 𝔹𝕆𝕋🟡", url="t.me/SAZUKI_FILTER_BOT"),
           ],[
           InlineKeyboardButton ("⚜️𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ⚜️", url="http://t.me/FluffyPyroGramBot?startgroup=true"),
           ]]

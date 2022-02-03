@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import random
 
 Naruto=Client(
-      "pushpaBOT",
+      "ImdbBOT",
       bot_token="5250937026:AAEveOUt5fOisEK7JD1ByjfOuNcLeX0bBus",
       api_id="15316155",
       api_hash="c2340e29da60393bc3c96fa7c0870911",
@@ -45,4 +45,4 @@ async def start_message(bot, message):
            
           
 
-Narutu.run()
+Naruto.run()

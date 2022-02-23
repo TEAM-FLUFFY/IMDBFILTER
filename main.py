@@ -4,9 +4,9 @@ import random
 
 Naruto=Client(
       "ImdbBOT",
-      bot_token="5283913051:AAGoGo8CclNnWr3_82xZPU_rXbgkyNJhFvw",
-      api_id="15316155",
-      api_hash="c2340e29da60393bc3c96fa7c0870911",
+      bot_token="5209944106:AAFAbJPBcICBCCHM33CRIH2aGdAr2q1pDkY",
+      api_id="19143782",
+      api_hash="43176648b57c393328f832939efb72da",
 )
 
 
@@ -37,6 +37,8 @@ async def start_message(bot, message):
           )
           
         )
+
+
     
            
            
